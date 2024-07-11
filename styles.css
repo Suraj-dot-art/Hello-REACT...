@@ -1,0 +1,70 @@
+
+
+.header{
+    display: flex;
+   justify-content: space-between;
+   border: 1px solid black;
+   height:100px;
+    
+}
+
+#imageLogo{
+    width: 100px;
+}
+
+.navItems{
+    padding: 0 90px 0 0;
+}
+
+.navItems, ul{
+    display: flex;
+
+}
+
+.navItems > ul > li{
+    padding: 20px;
+    margin: 20px;
+    list-style-type: none;
+
+}
+
+.resCard{
+    margin: 10px;
+    padding: 10px;
+    width: 250px;
+    height: 400px;
+   
+
+}
+.resCard:hover{
+    border: 1px solid lightgray;
+    cursor: pointer;
+}
+.searchBar{
+    padding: 10px;
+}
+#box8image{
+    height: 60%;
+    width: 100%;
+}
+.restaurantContainer{
+    margin: 20px;
+    padding: 20px;
+    display:flex;
+    flex-wrap: wrap-reverse;
+    text-align: center;
+    flex: 1;
+    
+}
+
+.filterBtn{
+    margin: 10px;
+    padding: 10px;
+    width: 250px;
+    cursor: pointer;
+}
+.filterBtn:hover{
+    background-color: rgb(173, 179, 184);
+    border-color: 1px solid antiquewhite;
+    
+}
